@@ -1,5 +1,5 @@
 // Used the alert() method the display an alert box with my message to the user
-alert("Why not have a go at guessing the number on the dice")
+window.alert("Why not have a go at guessing the number on the dice")
 
 // User prompt to guess the number on the dice
 const usersNumber = prompt("Please enter a number between 1 and 6")
