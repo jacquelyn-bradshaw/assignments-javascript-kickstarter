@@ -48,20 +48,28 @@ ingredients = makeTea(ingredient_1, ingredient_2, ingredient_3)
 // print to console the returned value from the function
 console.log(ingredients)
 
+// function including a switch statement to decide what text to return depending on the time of day
+function get_time_of_day(time_of_day) {
+  switch (time_of_day) {
+    case "morning":
+      return text = "Time for breakfast"
+      break
+    case "lunchtime":
+      return text = "Time for lunch"
+      break
+    case "teatime":
+      return text = "Time for tea"
+      break
+    default:
+      return text = "Let's have fun"
+  }
+}
+
 // set time of day variable
 let time_of_day = "teatime"
 
-// switch statement to decide what to print to the console depending on the time of day
-switch (time_of_day) {
-  case "morning":
-    console.log("Time for breakfast")
-    break
-  case "lunchtime":
-    console.log("Time for lunch")
-    break
-  case "teatime":
-    console.log("Time for tea")
-    break
-  default:
-    console.log("Let's have fun")
-}
+// call get_time_of_day function
+time_of_day_statement = get_time_of_day(time_of_day)
+
+// print to console the returned value from the function
+console.log(time_of_day_statement)
