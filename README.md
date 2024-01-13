@@ -38,3 +38,15 @@ Create a program with a list that loops through the items in a list and outputs 
 - Research and use object methods
 
 Find my solution in assignment_session_3.js
+
+## Assignment Session 4
+
+Create a web app that takes input from the user and updates the web page based on the input.
+
+- Get input from the user on a web page
+- Make changes to the HTML and/or CSS using JavaScript
+- Use an event to trigger a change to a web page
+- Add HTML elements to a web page using the DOM
+- Remove HTML elements from a web page using the DOM
+- Research and use other DOM events such as onmouseover
+- Use conditional logic in JavaScript

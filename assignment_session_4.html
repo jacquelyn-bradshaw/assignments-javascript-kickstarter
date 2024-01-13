@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assignment_session_4.css" />
+    <script src="assignment_session_4.js" defer></script>
+    <title>Assignment Session 4</title>
+  </head>
+  <body>
+    <h1 id="h1" onmouseover="makeLarger()">Introduction to HTML and CSS</h1>
+
+    <label>What colour would you like the heading?</label>
+    <input
+      type="color"
+      id="heading-font-colour"
+      onchange="applyHeadingColour()"
+    />
+
+    <div>
+      <p>What would you like to learn?</p>
+      <select id="select" onchange="loadInfo()">
+        <option value="blank"></option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+      </select>
+      <p id="info"></p>
+    </div>
+
+    <div id="learning-div">
+      <button onclick="startLearning()">Ready to Start Learning</button>
+    </div>
+
+    <div>
+      <button onClick="removeHeading()">Remove heading</button>
+    </div>
+  </body>
+</html>

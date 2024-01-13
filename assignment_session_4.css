@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+
+#h1 {
+  color: black;
+  font-size: 30px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+}
