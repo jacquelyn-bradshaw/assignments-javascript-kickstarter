@@ -1,15 +1,13 @@
-# assignments-javascript-kickstarter
+# assignments
 
-Assignments given in my JavaScript Kickstarter
-
-## Assignment Session 1
+## Assignment 1
 
 Create an interactive JavaScript program that is interesting for someone else to use
 using console.log(), const, prompt, concatenation, interpolation, alert and Math.random() ensuring code is commented
 
 Find my solution in assignment_session_1.js
 
-## Assignment Session 2
+## Assignment 2
 
 Make your own interactive project using
 
@@ -24,7 +22,7 @@ Make your own interactive project using
 
 Find my solution in assignment_session_2.js
 
-## Assignment Session 3
+## Assignment 3
 
 Create a program with a list that loops through the items in a list and outputs them in a helpful way.
 
@@ -39,7 +37,7 @@ Create a program with a list that loops through the items in a list and outputs 
 
 Find my solution in assignment_session_3.js
 
-## Assignment Session 4
+## Assignment 4
 
 Create a web app that takes input from the user and updates the web page based on the input.
 
